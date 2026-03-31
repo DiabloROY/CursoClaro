@@ -1,0 +1,155 @@
+<svg width="1440" height="2200" viewBox="0 0 1440 2200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="240" y1="0" x2="1200" y2="2200" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F7FAFF"/>
+      <stop offset="1" stop-color="#EEF4FF"/>
+    </linearGradient>
+    <linearGradient id="cta" x1="266" y1="0" x2="912" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF7A1A"/>
+      <stop offset="1" stop-color="#F44336"/>
+    </linearGradient>
+    <linearGradient id="accentBlue" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#4B8CFF"/>
+      <stop offset="1" stop-color="#2F66F6"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#14315E" flood-opacity="0.10"/>
+    </filter>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="8" stdDeviation="14" flood-color="#14315E" flood-opacity="0.08"/>
+    </filter>
+    <style>
+      .title { font: 800 66px 'Segoe UI', Arial, sans-serif; fill: #11284D; }
+      .subtitle { font: 400 28px 'Segoe UI', Arial, sans-serif; fill: #3E557A; }
+      .eyebrow { font: 700 20px 'Segoe UI', Arial, sans-serif; fill: #2F66F6; letter-spacing: 0.08em; }
+      .section { font: 800 42px 'Segoe UI', Arial, sans-serif; fill: #11284D; }
+      .cardTitle { font: 800 28px 'Segoe UI', Arial, sans-serif; fill: #11284D; }
+      .cardText { font: 400 22px 'Segoe UI', Arial, sans-serif; fill: #48607F; }
+      .smallTitle { font: 700 18px 'Segoe UI', Arial, sans-serif; fill: #11284D; letter-spacing: 0.04em; }
+      .smallText { font: 400 18px 'Segoe UI', Arial, sans-serif; fill: #5A7294; }
+      .nav { font: 700 20px 'Segoe UI', Arial, sans-serif; fill: #2C4671; }
+      .ctaText { font: 800 28px 'Segoe UI', Arial, sans-serif; fill: white; }
+      .buttonText { font: 700 22px 'Segoe UI', Arial, sans-serif; fill: #2F66F6; }
+      .whiteButtonText { font: 800 22px 'Segoe UI', Arial, sans-serif; fill: #F44336; }
+      .label { font: 700 16px 'Segoe UI', Arial, sans-serif; fill: #F44336; letter-spacing: 0.10em; }
+      .previewTitle { font: 800 20px 'Segoe UI', Arial, sans-serif; fill: #11284D; }
+      .previewText { font: 400 16px 'Segoe UI', Arial, sans-serif; fill: #577092; }
+    </style>
+  </defs>
+
+  <rect width="1440" height="2200" fill="url(#bg)"/>
+
+  <rect x="0" y="0" width="1440" height="96" fill="white"/>
+  <text x="150" y="60" class="nav">CursoClaro</text>
+  <circle cx="91" cy="48" r="26" fill="#4DB9F5"/>
+  <path d="M91 22C76 22 62 35 62 48C62 61 76 74 91 74C106 74 120 61 120 48C120 35 106 22 91 22Z" stroke="#FF6D2D" stroke-width="14" stroke-dasharray="38 24 28 16 30 20"/>
+  <text x="1030" y="60" class="nav">Cómo funciona</text>
+  <text x="1205" y="60" class="nav">Beneficios</text>
+  <rect x="1282" y="26" width="110" height="44" rx="22" fill="#EEF4FF"/>
+  <text x="1312" y="54" class="buttonText">Ingresar</text>
+
+  <text x="120" y="176" class="eyebrow">ORDEN PARA EL CURSO</text>
+  <text x="120" y="262" class="title">Todo lo importante del curso,</text>
+  <text x="120" y="338" class="title">sin perderse en el chat</text>
+  <text x="120" y="404" class="subtitle">Avisos del colegio, cumpleaños, colectas y confirmaciones</text>
+  <text x="120" y="446" class="subtitle">en una app simple, clara y hecha para familias.</text>
+
+  <rect x="120" y="488" width="456" height="78" rx="39" fill="url(#cta)" filter="url(#shadow)"/>
+  <text x="225" y="536" class="ctaText">Probar con mi curso</text>
+  <path d="M466 528H514" stroke="white" stroke-width="4" stroke-linecap="round"/>
+  <path d="M500 514L514 528L500 542" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="600" y="488" width="246" height="78" rx="39" fill="white" stroke="#E3ECFF" stroke-width="2"/>
+  <text x="665" y="536" class="buttonText">Ver demo</text>
+
+  <text x="120" y="628" class="section">WhatsApp para avisar.</text>
+  <text x="120" y="684" class="section" fill="#2F66F6">CursoClaro para ordenar.</text>
+
+  <rect x="788" y="156" width="532" height="660" rx="36" fill="white" stroke="#E6EEFF" stroke-width="2" filter="url(#shadow)"/>
+  <rect x="828" y="202" width="452" height="72" rx="24" fill="#F7FAFF"/>
+  <text x="860" y="247" class="previewTitle">Instituto Ana María Janer · 1° A</text>
+
+  <rect x="828" y="302" width="212" height="126" rx="28" fill="#FFFFFF" stroke="#E6EEFF" stroke-width="2"/>
+  <text x="854" y="344" class="previewTitle">Pendientes</text>
+  <text x="854" y="380" class="previewText">1 aviso del colegio</text>
+  <text x="854" y="406" class="previewText">2 respuestas por confirmar</text>
+
+  <rect x="1060" y="302" width="220" height="126" rx="28" fill="#F93A64"/>
+  <text x="1088" y="344" class="smallTitle" fill="white">PRÓXIMO CUMPLE</text>
+  <text x="1088" y="382" style="font: 800 32px 'Segoe UI', Arial, sans-serif; fill: white;">Dante</text>
+  <text x="1088" y="412" style="font: 400 20px 'Segoe UI', Arial, sans-serif; fill: #FFE7EE;">Martes 21 de abril</text>
+
+  <text x="828" y="478" class="label">DEL COLEGIO</text>
+  <rect x="828" y="504" width="452" height="104" rx="26" fill="#F6F9FF"/>
+  <rect x="850" y="528" width="84" height="32" rx="16" fill="#E7F0FF"/>
+  <text x="872" y="549" style="font: 700 15px 'Segoe UI', Arial, sans-serif; fill: #2F66F6;">OFICIAL</text>
+  <text x="950" y="548" class="previewTitle">Reunión de familias este viernes</text>
+  <text x="950" y="578" class="previewText">19:00 hs · Salón principal · Ver detalle</text>
+
+  <text x="828" y="656" class="label" fill="#FF7A1A">DE LA COMUNIDAD</text>
+  <rect x="828" y="682" width="452" height="98" rx="26" fill="#FFF7F0"/>
+  <rect x="850" y="707" width="90" height="30" rx="15" fill="#FFE8D3"/>
+  <text x="873" y="727" style="font: 700 15px 'Segoe UI', Arial, sans-serif; fill: #FF7A1A;">REGALO</text>
+  <text x="960" y="726" class="previewTitle">Colecta para el cumple de Dante</text>
+  <text x="960" y="754" class="previewText">Alias visible · 18 familias ya aportaron</text>
+
+  <circle cx="1224" cy="1248" r="188" fill="#DCE9FF"/>
+  <circle cx="220" cy="1128" r="110" fill="#EDF4FF"/>
+
+  <text x="120" y="942" class="section">Lo que hoy se mezcla en el chat,</text>
+  <text x="120" y="998" class="section">acá aparece claro y ordenado</text>
+
+  <rect x="120" y="1060" width="380" height="160" rx="32" fill="white" stroke="#E6EEFF" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="150" y="1096" width="60" height="60" rx="20" fill="#E7F0FF"/>
+  <text x="238" y="1128" class="cardTitle">Avisos del colegio</text>
+  <text x="238" y="1164" class="cardText">Lo oficial se ve primero,</text>
+  <text x="238" y="1194" class="cardText">sin perderse entre mensajes.</text>
+
+  <rect x="530" y="1060" width="380" height="160" rx="32" fill="white" stroke="#E6EEFF" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="560" y="1096" width="60" height="60" rx="20" fill="#E9FBED"/>
+  <text x="648" y="1128" class="cardTitle">Confirmaciones</text>
+  <text x="648" y="1164" class="cardText">Sabés quién va, quién falta</text>
+  <text x="648" y="1194" class="cardText">y qué ya quedó respondido.</text>
+
+  <rect x="940" y="1060" width="380" height="160" rx="32" fill="white" stroke="#E6EEFF" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="970" y="1096" width="60" height="60" rx="20" fill="#FFF2E4"/>
+  <text x="1058" y="1128" class="cardTitle">Colectas y regalos</text>
+  <text x="1058" y="1164" class="cardText">Alias, aportes y estado</text>
+  <text x="1058" y="1194" class="cardText">claros en un solo lugar.</text>
+
+  <rect x="325" y="1254" width="380" height="160" rx="32" fill="white" stroke="#E6EEFF" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="355" y="1290" width="60" height="60" rx="20" fill="#FFEAF4"/>
+  <text x="443" y="1322" class="cardTitle">Cumpleaños y eventos</text>
+  <text x="443" y="1358" class="cardText">Fechas y detalles ordenados,</text>
+  <text x="443" y="1388" class="cardText">sin repetir lo mismo mil veces.</text>
+
+  <rect x="735" y="1254" width="380" height="160" rx="32" fill="white" stroke="#E6EEFF" stroke-width="2" filter="url(#softShadow)"/>
+  <rect x="765" y="1290" width="60" height="60" rx="20" fill="#EAF8FF"/>
+  <text x="853" y="1322" class="cardTitle">Objetos perdidos</text>
+  <text x="853" y="1358" class="cardText">Lo encontrás rápido, sin</text>
+  <text x="853" y="1388" class="cardText">volver a buscar en el grupo.</text>
+
+  <rect x="0" y="1498" width="1440" height="420" fill="#F7FAFF"/>
+  <text x="525" y="1590" class="section">Cómo funciona</text>
+
+  <circle cx="338" cy="1694" r="28" fill="url(#accentBlue)"/>
+  <text x="329" y="1704" style="font: 800 22px 'Segoe UI', Arial, sans-serif; fill: white;">1</text>
+  <text x="392" y="1695" class="cardTitle">Crear</text>
+  <text x="392" y="1736" class="cardText">Armás un cumpleaños, aviso o colecta en segundos.</text>
+
+  <circle cx="338" cy="1798" r="28" fill="#28C76F"/>
+  <text x="329" y="1808" style="font: 800 22px 'Segoe UI', Arial, sans-serif; fill: white;">2</text>
+  <text x="392" y="1799" class="cardTitle">Compartir</text>
+  <text x="392" y="1840" class="cardText">Mandás el link al grupo y todos entran fácil.</text>
+
+  <circle cx="338" cy="1902" r="28" fill="#FF7A1A"/>
+  <text x="329" y="1912" style="font: 800 22px 'Segoe UI', Arial, sans-serif; fill: white;">3</text>
+  <text x="392" y="1903" class="cardTitle">Ordenar respuestas</text>
+  <text x="392" y="1944" class="cardText">Confirmaciones, aportes y avisos quedan claros.</text>
+
+  <rect x="120" y="2010" width="1200" height="128" rx="40" fill="white" stroke="#E6EEFF" stroke-width="2" filter="url(#shadow)"/>
+  <text x="435" y="2064" class="cardTitle">Probalo con tu curso hoy</text>
+  <text x="357" y="2102" class="cardText">Estamos abriendo el piloto para grupos reales. Sin instalar nada. Sin contraseñas. Solo un link.</text>
+  <rect x="916" y="2040" width="326" height="62" rx="31" fill="url(#cta)"/>
+  <text x="987" y="2079" class="ctaText" style="font-size:24px;">Quiero sumarme</text>
+</svg>
